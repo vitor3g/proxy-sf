@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 const app = express();
 
-const API_BASE_URL = "http://sleeve-api.surfvalley.com.br:4096/v1";
+const API_BASE_URL = "http://168.90.5.62:8080";
 
 app.use(express.raw({ type: "*/*" }));
 
